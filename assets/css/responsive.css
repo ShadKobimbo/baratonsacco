@@ -1,0 +1,242 @@
+/*
+Author       : Hash Theme.
+Template Name: Paramin - Business Html5 Template
+Version      : 1.0
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+    .single-about .single-about-text {
+        width: 83%;
+    }
+	/* home 2 */
+	.single-chose .single-chose-text {
+	   width: 83%;
+   }
+   .promo-wrap {
+	margin: 0 36px;
+   }
+	.header-3 .navbar-default .navbar-nav > li > a {
+	   padding: 8px;
+   }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .info-menu {
+        float: none;
+    }
+	.navbar-default .navbar-nav > li > a {
+	    padding: 15px;
+    }
+    .desc-layer {
+        width: 70%;
+    }
+    .title-container .slider-title {
+        font-size: 40px;
+    }
+    .home-static-text h2 {
+        font-size: 40px;
+    }
+    .about-image img {
+        left: 0;
+        top: 0;
+    }
+    .single-about .single-about-text {
+        width: 77%;
+    }
+    .single-counter {
+        margin-bottom: 30px;
+    }
+    .address-time {
+        margin: 310px 0;
+    }
+    .pricing-table-default {
+        margin-bottom: 60px;
+    }
+    .call-to-action-btn {
+        margin-top: 30px;
+    }
+    .our-moto,
+    .our-awards {
+        margin-bottom: 30px;
+    }
+    footer .widget:not(:last-child) {
+        margin-bottom: 40px;
+    }
+	.header-3 .navbar-default .navbar-nav > li > a {
+	   padding: 14px;
+    }
+	.header-4 .navbar-default .navbar-nav > li > a {
+	   padding: 14px;
+    }
+
+    .sidebar-widgets:first-child {
+        margin-top: 40px;
+    }
+    .single-feature .single-feature-text {
+        width: 100%;
+    }
+    .single-feature .single-feature-text {
+        width: 100%;
+    }
+    #cart .button {
+        padding: 10px 15px;
+    }
+    .project-details {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	header {
+		overflow: hidden;
+	}
+	.sticky-wrapper {
+		height: 0 !important;
+	}
+    .info-menu {
+        float: none;
+    }
+    .title-container .slider-title {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .nivo-caption p,
+    .sbutton-link,
+    .nivo-directionNav a {
+        display: none;
+    }
+	.home-static-text h1,.home-static-text h2,.home-startup-text h1 {
+		font-size: 40px;
+	} 
+	.text-slide-item h2,.single-slide-item h2 {
+		font-size: 30px;
+	}
+    .text-slide-item p {
+        width: 100%
+    }
+    .home-static-text span a {
+        display: none;
+    }
+    .home-static-text p {
+        width: 100%;
+    }
+    .single-slide-item p {
+        width: 100%
+    }
+    .about-image {
+        margin-bottom: 30px;
+    }
+    .about-image img {
+        position: relative;
+        top: 0;
+    }
+    .section-title p {
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+    .single-counter {
+        margin-bottom: 30px;
+    }
+    .portfolio-filter-menu ul li {
+        padding: 5px 15px;
+    }
+	.pricing-table-default {
+        margin-bottom: 60px;
+    }
+    .call-to-action-btn {
+        margin-top: 30px;
+    }
+    .our-moto,
+    .our-awards {
+        margin-bottom: 30px;
+    }
+    .address-time {
+        font-size: 20px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    footer .widget:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .copyright .copyright-text,
+    .footer-menu ul {
+        text-align: center;
+    }
+    footer .copyright-text p {
+        margin-bottom: 10px;
+    }
+	
+	.header-3 .mean-container .mean-bar {
+		background: #fff;
+	}
+	.header-3 .mean-container a.meanmenu-reveal span {
+		background: #333;
+	}
+	.header-3 .mean-container a.meanmenu-reveal {
+		color: #333;
+	}
+	.header-4 .mean-container .mean-bar {
+		background: #fff;
+	}
+	.header-4 .mean-container a.meanmenu-reveal span {
+		background: #333;
+	}
+	.header-4 .mean-container a.meanmenu-reveal {
+		color: #333;
+	}
+    .single-feature-border .single-feature {
+        border: none;
+    }
+    .single-feature .single-feature-text {
+        width: 100%;
+    }
+    #cart table tbody td {
+        padding: 6px 7px;
+    }
+    #cart .table thead th:first-child,
+    #cart table tbody tr td:first-child {
+        display: none;
+        padding-left: 0;
+    }
+    #cart .button {
+        padding: 10px;
+    }
+    #cart .simple.btn {
+        padding: 12px 0;
+        width: 100%;
+    }
+    #cart .btn.black-border {
+        width: 100%;
+    }
+    #cart .coupon-block {
+        padding: 0 2px;
+    }
+    #cart form .submit {
+        padding: 0;
+    }
+    #cart table thead th {
+        font-size: 10px;
+        padding: 20px 5px;
+    }
+    .project-details {
+        margin-bottom: 30px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+}

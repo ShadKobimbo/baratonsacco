@@ -1,0 +1,104 @@
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Description: The default skin for the Nivo Slider.
+Version: 1.3
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+Supports Thumbs: true
+*/
+/* -------------------------------------
+home-slider
+---------------------------------------- */
+
+.home-slider .nivoSlider .nivo-directionNav a.nivo-prevNav {
+    left: -50px;
+    font-size: 0;
+}
+.home-slider .nivoSlider .nivo-directionNav a.nivo-nextNav {
+    right: -31px;
+    font-size: 0;
+}
+.home-slider .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+    left: 15px;
+}
+.home-slider .nivoSlider:hover .nivo-directionNav a.nivo-nextNav {
+    right: 65px;
+}
+.home-slider .nivo-directionNav a.nivo-prevNav:before {
+    content: "\f177";
+}
+.home-slider .nivo-directionNav a.nivo-nextNav:before {
+    content: "\f178";
+}
+.home-slider .nivo-directionNav a.nivo-prevNav:before,
+.home-slider .nivo-directionNav a.nivo-nextNav:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    background: #923104;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    transition: all 300ms ease-in 0s;
+}
+.home-slider .nivo-directionNav a.nivo-prevNav:hover:before,
+.home-slider .nivo-directionNav a.nivo-nextNav:hover:before {
+    background: #fff;
+    color: #000;
+}
+.home-slider .nivo-controlNav {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.home-slider .nivo-controlNav a {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    cursor: pointer;
+    display: inline-block;
+	width: 15px;
+    height: 15px;
+    line-height: 15px;
+    margin: 0 0 0 12px;
+    position: relative;
+    text-indent: -9999px;
+	z-index: 9;
+	opacity: 0;
+}
+.home-slider .nivo-controlNav a::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    content: "";
+    height: 7px;
+    left: 0;
+    margin: -3.5px auto 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 7px;
+}
+.home-slider .nivo-controlNav a:hover::before,
+.home-slider .nivo-controlNav a.active::before {
+    background: #923104 none repeat scroll 0 0;
+}
+.home-slider .nivo-controlNav a:hover,
+.home-slider .nivo-controlNav a.active {
+    border-color: #923104;
+}
+.home-slider:hover .nivo-controlNav a {
+    opacity: 1;
+    z-index: 99;
+}
